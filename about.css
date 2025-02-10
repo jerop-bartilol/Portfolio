@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.cont1{
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cont2{
+    margin-left: 600px;
+}
+h1{
+    text-align: center;
+}
+h1:hover{
+    color: pink;
+}
+.cont4{
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cont5{
+    color: black;
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
