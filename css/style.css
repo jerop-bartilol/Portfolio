@@ -1,24 +1,20 @@
 h1{
-    color: black;
-    font-size: 100px;
-    font-weight: 700;
-    margin-left: 200px;
-    font-style: oblique;
-    text-align: center;
+ display: flex;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 50px;
+ font-weight: 900;
+ color: black;
+ margin-left: 300px;
+
 }
 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 600px;
     color: black;
-    font-weight: 600;
-    font-size: 40px;
-    font-weight: bold;
-    font-style: oblique;
-    margin-left: 150px;
-    margin-top: 400px;
 }
-h2:hover{
-    color: gray;
-}
-ul{
+.ul1{
     list-style-type: none;
     display: flex;
     width: 100%;
@@ -26,15 +22,16 @@ ul{
     font-size: 30px;
     padding-left: 900px;
     gap: 90px;
-    height: 50px;
+    height: 10px;
     margin-top: 2px;
 }
-p{
-    font-size: 20px;
-    width: 30%;
-    margin-left: 900px;
-    background-color: black;
-    opacity: 0.5;
-    color: whitesmoke;
+
+.image1{
+    opacity : 0.9;
 }
-   
+body{
+    width: 1%;
+}
+a{
+    text-decoration: none;
+}
