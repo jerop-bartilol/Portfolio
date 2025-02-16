@@ -3,31 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Page</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div>
-    <div></div>
     <nav class="navbar">
-        <ul class="ul1">
-            <a href="index.html"><li>Home</li></a>
-            <a href="about.html"><li>About</li></a>
-            <a href="form.html"><li>Contact</li></a>
-        </ul>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Contact">Contact</a>
     </nav>
+    <section id="Home">
+        <div>
+        <header>
+            <h1> Hi, I am Tina</h1>
+            <h2>Happy to join this wonderful community </h2>
+            <p>front-end Developer $ Back-end Devloper</p>
+        </header>
+        </div>
+</section>
+<section  id="About">
+    <div class="About-container">
+        <p>I started my journey in software development with a strong interest in creating websites. I have learned the basics of HTML and CSS, which allow me to build and style web pages. I enjoy experimenting with code and improving my skills as I continue to learn more about web development. My goal is to expand my knowledge and work on more projects to grow as a developer.</p>
+        <p class="p2">My journey in software development started with a curiosity for how websites work. I began by learning HTML and CSS, building small projects to practice my skills. As I continue to grow, I am excited to explore more programming languages and technologies to create even better web experiences. I enjoy problem-solving and always look for new challenges to improve my abilities</p>
+        <img src="profile1.jpg" alt="">
+        <div class="About-container2">
+            <h3>Developer</h3>
+            <h3>Designer</h3>
+            <h3>Canvar</h3>
+            <h3>Branding</h3>
+            <h3>Figma</h3>
+        </div>
+       </div>
+</section>
+
+<section id="Skills">
+    <div class="Skills-container">
+    <p>I'm passionate about building and designing websites, and I'm excited to continue learning and growing in software development. I've started with HTML and CSS, and I'm eager to expand my skills into more advanced technologies. My goal is to create user-friendly and visually appealing web experiences while constantly improving my coding abilities.</p>
+    <p>I am a beginner in software development with a basic understanding of HTML and CSS. I can create simple web pages with proper structure and styling. I am eager to learn more about web development and improve my coding skills. I enjoy experimenting with different designs and layouts to build better user experiences.</p>
+    <img src="profile2.jpg" alt="">
 </div>
-    <div>
-        <style>
-            body{
-                background-image: url(image3.webp);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-        </style>
-        <h1>Hi I'm Tina A Frontend Developer</h1>
-        <h2>Happy to join this wonderful community </h2>
+</section>
+
+<section id="Experience">
+    <div class="Experience-container">
+    <p>I have a growing passion for software development and have learned the basics of HTML and CSS. I enjoy building simple web pages and improving my coding skills. As I continue learning, I am excited to explore more programming languages and develop more interactive and responsive websites.</p>
+    <p>I enjoy exploring the world of software development and have started my journey by learning HTML and CSS. I love building simple web pages and experimenting with different styles and layouts. In my free time, I practice coding, work on small projects, and look forward to learning more about JavaScript and other technologies to improve my skills.</p>
+    <img src="profle3.jpg" alt=""> 
+     <img src="pic.css" alt="">
+</div>
+</section>
+
+<section id="Contact">
+    <div class="Contact-container">
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+    <form class="contact-form">
+        <img src="Connect.png" alt="">
+        <legend>REACH ME</legend>
+        <label for="fname">Full Name</label><br>
+        <input type="text" id="fname" placeholder="Enter your name"><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="@gmail.com"><br>
+        <h3>Select needs</h3> <div class="part1">
+        <input type="checkbox" id="brand" value="Branding">
+        <label for="brand">Branding</label><br>
+        <input type="checkbox" id="development" value="Web development">
+        <label for="development">Web Development</label><br>
+        <input type="checkbox" id="Can" value="Canvar">
+        <label for="Can">Canvar</label>
+    </form>
     </div>
-</div>
+</section>
+
 </body>
 </html>
